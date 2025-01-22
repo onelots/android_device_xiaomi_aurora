@@ -61,5 +61,9 @@ TARGET_SCREEN_DENSITY := 560
 # Partitions
 BOARD_SUPER_PARTITION_SIZE := 9663676416
 
+# Properties
+DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
+TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
+
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/aurora/BoardConfigVendor.mk
