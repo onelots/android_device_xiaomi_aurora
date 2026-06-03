@@ -1660,7 +1660,7 @@ odm/lib64/libcom.xiaomi.grallocutils.so
 # Fingerprint
 odm/bin/hw/mfp-daemon
 odm/bin/hw/mifaced
-odm/lib64/hw/fingerprint.goodix_fod.so
+odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
 odm/lib64/libgf_hal.so
 vendor/lib64/com.fingerprints.extension3-V1-ndk.so
 vendor/lib64/com.fingerprints.fpc.extension-V1-ndk.so
