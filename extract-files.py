@@ -233,6 +233,12 @@ blob_fixups: blob_fixups_user_type = {
             'libtinyxml2.so',
             'libtinyxml2-v34.so',
         ),
+        'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
+        .replace_needed(
+            'android.hardware.graphics.composer3-V2-ndk.so',
+            'android.hardware.graphics.composer3-V4-ndk.so',
+        ),
     (
         'odm/lib64/camera/plugins/com.xiaomi.plugin.gainmap.so',
         'odm/lib64/camera/plugins/com.xiaomi.plugin.jpegrAggr.so',

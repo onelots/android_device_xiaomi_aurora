@@ -40,8 +40,8 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
@@ -375,14 +375,14 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>2</item>
-        <item>6</item>
-        <item>10</item>
-        <item>30</item>
-        <item>100</item>
-        <item>400</item>
+        <item>800</item>
+        <item>750</item>
+        <item>700</item>
+        <item>650</item>
+        <item>550</item>
         <item>600</item>
-        <item>1000</item>
+        <item>800</item>
+        <item>600</item>
     </integer-array>
 
     <!-- Array of hysteresis constraint values for darkening, represented as tenths of a

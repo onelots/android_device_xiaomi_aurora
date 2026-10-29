@@ -54,3 +54,8 @@ debug.sf.set_idle_timer_ms=110
 
 # Marketname
 ro.product.odm.marketname=Xiaomi 14 Ultra
+
+# Sensors
+ro.vendor.sensor.maxbrightness=2866
+ro.vendor.proxcal.factor=2.9
+persist.vendor.sensor.mischeck=true
