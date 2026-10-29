@@ -52,5 +52,8 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
     nxp/opensource/driver
 
+# Board
+TARGET_BOOTLOADER_BOARD_NAME := aurora
+
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/aurora/BoardConfigVendor.mk
