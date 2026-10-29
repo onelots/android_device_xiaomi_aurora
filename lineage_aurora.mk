@@ -20,4 +20,9 @@ PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := aurora
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceProduct=aurora
+    BuildDesc="aurora_global-user 16 BP2A.250605.031.A3 OS3.0.305.0.WNAMIXM release-keys" \
+    BuildFingerprint=Xiaomi/aurora_global/aurora:16/BP2A.250605.031.A3/OS3.0.305.0.WNAMIXM:user/release-keys \
+    DeviceName=aurora \
+    DeviceProduct=aurora_global \
+    SystemDevice=aurora \
+    SystemName=aurora_global
