@@ -58,5 +58,8 @@ TARGET_BOOTLOADER_BOARD_NAME := aurora
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 9663676416
+
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/aurora/BoardConfigVendor.mk
