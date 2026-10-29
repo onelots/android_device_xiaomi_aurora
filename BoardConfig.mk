@@ -66,5 +66,8 @@ DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
 TARGET_ODM_PROP += $(DEVICE_PROPERTIES_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
 
+# VINTF
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/aurora/BoardConfigVendor.mk
