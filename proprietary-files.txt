@@ -1507,6 +1507,13 @@ odm/firmware/ispv4_ddr_train
 odm/lib64/libaidenoiser.so
 odm/lib64/libaidenoiserv2.so
 
+# CIT Sensor
+odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl;DISABLE_CHECKELF
+odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
+odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
+vendor/lib64/xiaomi.system.hypsys.common-V1-ndk.so
+
 # Neural networks
 odm/data/model/seg_quantized.serialized.8650.pertensor_512_cls3r.bin
 odm/firmware/film_model.tflite
