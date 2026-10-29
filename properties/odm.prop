@@ -51,3 +51,6 @@ ro.vendor.all_modes.colorpick_adjust=true
 persist.vendor.dc_backlight.threshold=0
 persist.vendor.dc_backlight.enable=false
 debug.sf.set_idle_timer_ms=110
+
+# Marketname
+ro.product.odm.marketname=Xiaomi 14 Ultra
