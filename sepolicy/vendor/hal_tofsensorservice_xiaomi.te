@@ -1,0 +1,22 @@
+type vendor_hal_tofsensorservice_xiaomi_default, domain;
+type vendor_hal_tofsensorservice_xiaomi_default_exec, exec_type, file_type, vendor_file_type;
+type vendor_hal_tofsensorservice_xiaomi_service, hal_service_type, protected_service, service_manager_type;
+
+add_service(vendor_hal_tofsensorservice_xiaomi_default, vendor_hal_tofsensorservice_xiaomi_service)
+
+allow { hal_camera_default hal_sensors_default } vendor_hal_tofsensorservice_xiaomi_service:service_manager find;
+allow vendor_hal_tofsensorservice_xiaomi_default hal_camera_default:dir search;
+allow vendor_hal_tofsensorservice_xiaomi_default mnt_vendor_file:dir search;
+allow vendor_hal_tofsensorservice_xiaomi_default self:capability sys_nice;
+allow vendor_hal_tofsensorservice_xiaomi_default stmvl53l5_device:chr_file rw_file_perms;
+
+binder_call({ hal_camera_default hal_sensors_default }, vendor_hal_tofsensorservice_xiaomi_default)
+binder_call(vendor_hal_tofsensorservice_xiaomi_default, { hal_camera_default hal_sensors_default })
+
+binder_use(vendor_hal_tofsensorservice_xiaomi_default)
+
+init_daemon_domain(vendor_hal_tofsensorservice_xiaomi_default)
+
+r_dir_file(vendor_hal_tofsensorservice_xiaomi_default, vendor_persist_sensors_file)
+
+wakelock_use(vendor_hal_tofsensorservice_xiaomi_default)
