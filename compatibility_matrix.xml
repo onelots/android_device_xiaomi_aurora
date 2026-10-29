@@ -1,0 +1,10 @@
+<compatibility-matrix version="7.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.sensor.tofsensorservice</name>
+        <version>1</version>
+        <interface>
+            <name>ITofSensorService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
