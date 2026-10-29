@@ -168,11 +168,6 @@ blob_fixups: blob_fixups_user_type = {
         'odm/etc/camera/night_motiontuning.xml',
     ): blob_fixup()
         .regex_replace('xml=version', 'xml version'),
-    'odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service': blob_fixup()
-        .replace_needed(
-            'android.hardware.vibrator-V1-ndk_platform.so',
-            'android.hardware.vibrator-V1-ndk.so',
-        ),
     'odm/bin/hw/mfp-daemon': blob_fixup()
         .replace_needed(
             'android.hardware.biometrics.common-V3-ndk.so',
