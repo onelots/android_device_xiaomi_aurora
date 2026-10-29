@@ -1,3 +1,35 @@
+# Audio
+persist.vendor.audio.voicecall.speaker.stereo=true
+ro.vendor.audio.spk.stereo=true
+ro.vendor.audio.spatializer.support.speaker=true
+ro.vendor.audio.triplemic.support=true
+ro.vendor.audio.dualadc.support=true
+ro.vendor.audio.zoom.support=true
+ro.vendor.audio.zoom.type=2
+ro.vendor.audio.camera.loopback.support=true
+ro.vendor.audio.lowpower.pa.para.support=true
+vendor.audio.spkcal.copy.inhal=true
+ro.vendor.audio.soundtrigger=sva
+ro.vendor.audio.soundtrigger.appdefine.cnn.level=77
+ro.vendor.audio.soundtrigger.appdefine.gmm.level=65
+ro.vendor.audio.soundtrigger.appdefine.gmm.user.level=55
+ro.vendor.audio.soundtrigger.appdefine.vop.level=10
+ro.vendor.audio.soundtrigger.lowpower=true
+ro.vendor.audio.soundtrigger.permian=1
+ro.vendor.audio.soundtrigger.snr=-100
+ro.vendor.audio.soundtrigger.sva-7.0=1
+ro.vendor.audio.soundtrigger.wakeupword=3
+ro.vendor.audio.soundtrigger.training.level=50
+ro.vendor.audio.soundtrigger.xanzn.cnn.level=158
+ro.vendor.audio.soundtrigger.xanzn.gmm.level=80
+ro.vendor.audio.soundtrigger.xanzn.gmm.user.level=80
+ro.vendor.audio.soundtrigger.xanzn.vop.level=41
+ro.vendor.audio.soundtrigger.xatx.cnn.level=79
+ro.vendor.audio.soundtrigger.xatx.gmm.level=60
+ro.vendor.audio.soundtrigger.xatx.gmm.user.level=60
+ro.vendor.audio.soundtrigger.xatx.vop.level=37
+ro.vendor.audio.soundtrigger.xiaomievent=1
+
 # Bluetooth
 bluetooth.device.default_name=Xiaomi 14 Ultra
 
@@ -13,3 +45,46 @@ ro.hardware.fp.fod.lowlight.lux.threshold=3
 ro.hardware.fp.fod.lowlight.brightness.threshold=411
 ro.hardware.fp.mievent=true
 ro.hardware.fp.fod.touch.ctl.version=2.0
+
+# Haptics
+sys.haptic.alert=8,2
+sys.haptic.boundary_spatial=0,2
+sys.haptic.boundary_time=1,2
+sys.haptic.button_large=2,2
+sys.haptic.button_middle=3,2
+sys.haptic.button_small=4,2
+sys.haptic.down.normal=2
+sys.haptic.down.strong=5
+sys.haptic.down.weak=0
+sys.haptic.down=5,2
+sys.haptic.dynamiceffect.richtap.version=2.0
+sys.haptic.dynamiceffect.richtap=true
+sys.haptic.dynamiceffect=true
+sys.haptic.flick.light=7,2
+sys.haptic.flick=5,2
+sys.haptic.gear_heavy=6,2
+sys.haptic.gear_light=5,2
+sys.haptic.hold=4,0
+sys.haptic.infinitelevel=true
+sys.haptic.intensityforkeyboard=true
+sys.haptic.keyboard=7,2
+sys.haptic.long.press=0,1
+sys.haptic.mesh.heavy=8,2
+sys.haptic.mesh.light=5,1
+sys.haptic.mesh.normal=5,2
+sys.haptic.motor=linear
+sys.haptic.pickup=2,2
+sys.haptic.popup.light=6,1
+sys.haptic.popup.normal=6,2
+sys.haptic.runin=13
+sys.haptic.scroll.edge=7,0
+sys.haptic.switch=9,2
+sys.haptic.tap.light=5,2
+sys.haptic.tap.normal=3,2
+sys.haptic.trigger.drawer=2,0
+sys.haptic.version=2.0
+sys.haptic.zaxis_switch=9,2
+sys.rhythmic_mode_default_level=50
+
+# Touch
+ro.vendor.touchfeature.type=183

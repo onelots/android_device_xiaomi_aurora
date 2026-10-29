@@ -63,6 +63,7 @@ BOARD_SUPER_PARTITION_SIZE := 9663676416
 
 # Properties
 DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
+TARGET_ODM_PROP += $(DEVICE_PROPERTIES_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
 
 # Include the proprietary files BoardConfig.
