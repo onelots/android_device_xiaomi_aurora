@@ -55,5 +55,8 @@ TARGET_KERNEL_EXT_MODULES := \
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := aurora
 
+# Display
+TARGET_SCREEN_DENSITY := 560
+
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/aurora/BoardConfigVendor.mk
