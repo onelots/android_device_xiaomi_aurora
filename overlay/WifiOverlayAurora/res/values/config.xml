@@ -75,6 +75,9 @@
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,16777216,262144,524288,16777216</string>
 
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi 14 Ultra</string>
+
     <!-- Array describing scanning schedule in seconds when device is disconnected and screen is on -->
     <integer-array name="config_wifiDisconnectedScanIntervalScheduleSec">
         <item>20</item>
@@ -171,7 +174,4 @@
     <!-- Boolean indicating whether IP address allocation in EAPOL is enabled by default in Wi-Fi.
          The GO fixed IP address is set to 192.168.49.1 and subnet mask to 255.255.255.0 -->
     <bool name="config_wifiP2pGoIpAddressAllocationInEapolFrames">true</bool>
-
-    <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi 14 Ultra</string>
 </resources>
